@@ -62,3 +62,6 @@
 
 ;; Discord
 (elcord-mode)
+
+;; Splash image
+(setq fancy-splash-image "~/.doom.d/emacs.png")
