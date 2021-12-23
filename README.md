@@ -1,2 +1,2 @@
-# Doom Emacs configuration
+# Doom Emacs Configuration
 Personal configuration of Doom Emacs.
