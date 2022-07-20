@@ -3,10 +3,9 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "1ukidev"
+(setq user-full-name "Leonardo / LuKi"
       user-mail-address "leo.monteiro06@live.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
@@ -35,7 +34,6 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
-
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
@@ -54,13 +52,13 @@
 ;; they are implemented.
 
 ;; Font
-(set-frame-font "JetBrainsMono Nerd Font 9" nil t)
+(set-frame-font "monospace 9" nil t)
 
 ;; Transparent window
 (set-frame-parameter (selected-frame)'alpha '(95 . 95))
 (add-to-list 'default-frame-alist'(alpha . (95 . 95)))
 
-;; Discord
+;; Discord Rich Presence
 (elcord-mode)
 
 ;; Splash image
