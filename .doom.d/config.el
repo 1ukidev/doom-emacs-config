@@ -28,7 +28,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/Org/")
+(setq org-directory "~/Documentos/Org/")
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -52,7 +52,7 @@
 ;; they are implemented.
 
 ;; Font
-(set-frame-font "monospace 9" nil t)
+(set-frame-font "monospace 10" nil t)
 
 ;; Transparent window
 (set-frame-parameter (selected-frame)'alpha '(95 . 95))
