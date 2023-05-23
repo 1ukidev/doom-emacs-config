@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-city-lights)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -84,3 +84,11 @@
 
 ;; Splash image
 (setq fancy-splash-image "~/.config/doom/emacs.png")
+
+;; org-mode font
+(custom-set-faces! '(org-level-1 :font "Noto Serif" :size 12))
+(custom-set-faces! '(org-level-2 :font "Noto Serif" :size 12))
+(custom-set-faces! '(org-level-3 :font "Noto Serif" :size 12))
+(custom-set-faces! '(org-level-4 :font "Noto Serif" :size 12))
+(custom-set-faces! '(org-level-5 :font "Noto Serif" :size 12))
+(custom-set-faces! '(org-level-6 :font "Noto Serif" :size 12))
