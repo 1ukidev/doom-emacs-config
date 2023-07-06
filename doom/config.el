@@ -82,5 +82,9 @@
 (set-frame-parameter (selected-frame)'alpha '(95 . 95))
 (add-to-list 'default-frame-alist'(alpha . (95 . 95)))
 
-;; Splash image
+;; Splash screen
 (setq fancy-splash-image "~/.config/doom/emacs.png")
+
+;; Cursor type
+(setq evil-insert-state-cursor '(hbar "white")
+      evil-normal-state-cursor '(bar "white"))
